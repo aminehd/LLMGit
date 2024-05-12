@@ -11,3 +11,10 @@ poetry install
 poetry shell
 poetry run pytest
 ```
+
+### install new packages
+```
+poetry add pack
+git add poetry.lock pyproject.toml && git commit "installed new pkg" 
+git push origin
+```
