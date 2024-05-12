@@ -1,0 +1,1 @@
+From mcr.microsoft.com/devcontainers/python:3.9
