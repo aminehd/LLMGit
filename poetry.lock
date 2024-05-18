@@ -1685,13 +1685,13 @@ colorama = ">=0.4"
 
 [[package]]
 name = "groq"
-version = "0.4.2"
+version = "0.6.0"
 description = "The official Python library for the groq API"
-optional = true
+optional = false
 python-versions = ">=3.7"
 files = [
-    {file = "groq-0.4.2-py3-none-any.whl", hash = "sha256:5b2b472c64d9f35210e0487db465415d47162da3a114031ecbfc8843d26302a5"},
-    {file = "groq-0.4.2.tar.gz", hash = "sha256:42e8b0abd0f2b2da024b9a747d28960d62951a5364f078e1537c9fceeca8259d"},
+    {file = "groq-0.6.0-py3-none-any.whl", hash = "sha256:99e2e5ea48df074c09bffcc349b049d3573d9cb35da872d4acbbe50a4b266414"},
+    {file = "groq-0.6.0.tar.gz", hash = "sha256:a96f3a49a0d4119a1bec7f6352af0a87733a2865d464da34a4eb27bfe8068c7e"},
 ]
 
 [package.dependencies]
@@ -4725,7 +4725,7 @@ six = ">=1.5"
 name = "python-dotenv"
 version = "1.0.1"
 description = "Read key-value pairs from a .env file and set them as environment variables"
-optional = true
+optional = false
 python-versions = ">=3.8"
 files = [
     {file = "python-dotenv-1.0.1.tar.gz", hash = "sha256:e324ee90a023d808f1959c46bcbc04446a10ced277783dc6ee09987c37ec10ca"},
@@ -7197,4 +7197,4 @@ weaviate = ["weaviate-client"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.13"
-content-hash = "d63cb5a441c64ecb9faf2cf59054bb90bc46471cde794fc0298e29737ff86776"
+content-hash = "ddb4fcb2a139c038228ff40b80f4a1826eb5441116aebd627cb70cd934f7298e"
